@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.container{
+    height: 100%;
+    width: 40%;
+    border: solid 1px;
+    background-color: purple;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.container img{
+    margin-top: 35px;
+    object-fit: contain;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container h1, .container p{
+    color: rgb(231, 231, 231);
+}
+.container p {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.button{
+    background-color: rgb(219, 195, 58);
+    color: white;
+    border-radius: 5%;
+    font-size: medium;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.inputs_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    width: 80%;
+}
+.inputs_container input{
+    padding: 8px;
+    margin: 10px auto;
+    border-radius: 5%;
+    width: 80%;
+    font-size: large;
+}
+
+.totales{
+    font-size: 28px;
+}
+.totales p{
+    margin: 2px;
+}
+
+.color_muestra{
+    display: flex;
+    flex-direction: row;
+}
+/* DIV CIRCULAR QUE DEMUESTRA EL COLOR SELECCIONADO*/
+.muestra{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 3px;
+
+}

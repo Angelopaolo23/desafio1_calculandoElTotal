@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="container">
+            <img src="/assets/img/asus400px.png" alt="foto notebook asus">
+            <p>Notebook Asus Zenbook 3</p>
+            <div class="inputs_container">
+                <input type="text" placeholder="Cantidad" id="cantidad_input">
+                <input type="text" placeholder="Color" id="color_input">
+                <p>Precio: $<span id="precio_unidad">700000</span></p>
+            </div>
+            <button class="button" onclick="calcular()">Calcular Total</button>
+        </div>
+        <div class="totales">
+            <p>Total: <span id="monto_compra">0</span></p>
+            <p>Cantidad: <span id="cantidad_total">0</span></p>
+            <div class="color_muestra">
+                <p>Color:</p>
+                <div class="muestra"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
