@@ -1,0 +1,3 @@
+Primer desafio del modulo Introducción a Javascript de Desafio Latam.
+
+Los objetivos del desafio, segun las mismas palabras de Desafio Latam, son "implementar la tarjeta de un producto expuesto en una tienda online y agregar interacción de usuario permitiendo modiﬁcar la cantidad y el color del producto", esto lo lograremos con la utilizacion de variables con valores obtenidos tanto del propio HTML (innerHTML), como valores obtenidos de los inputs, y a traves de un evento (click) haremos que haga una serie de operaciones que calculen el total de dinero que costaria comprar X computador, ademas de una muestra del color elegido, estas dos ultimas tareas realizaran una modificacion de DOM y daran por concluido el desafio.
